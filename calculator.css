@@ -1,0 +1,102 @@
+body {
+  background-image: -webkit-linear-gradient(top, #667782, #1e2326);
+  background-image: -moz-linear-gradient(top, #667782, #1e2326);
+  background-image: -ms-linear-gradient(top, #667782, #1e2326);
+  background-image: -o-linear-gradient(top, #667782, #1e2326);
+  background-image: linear-gradient(to bottom, #667782, #1e2326);
+}
+
+h1 {
+  margin: 4%;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  font-size: 400%;
+  text-align: center;
+}
+
+.well {
+  background-color: #2B547E;
+  width: 300px;
+  margin-top: 4%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 5px 5px 25px black;
+  outline: 0;
+  border: 3px #2B3856 solid;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+#output {
+  width: 94%;
+  background-color: rgb(220,235,249);
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid gray;
+  border-radius: 10px;
+  border-style: inset;
+  border-color: gray;
+  margin-bottom: 2%;
+  padding: 2% 2% 1% 0;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 200%;
+  text-align: right;
+}
+
+#small{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40%; 
+  color: gray
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  padding: 14px 1px 14px 1px;
+  border-radius: 7%;
+  outline: none;
+  background-color:#2B3856;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 110%;
+  color: white;
+  margin: 2%;
+  border: 2px #2B3856 outset;
+}
+
+.btn:focus{
+  color:white; 
+  outline: none;
+}
+
+.btn:hover{
+  color:white;
+}
+
+.btn:active{
+  background-color: #2B3856;
+  color: white;
+  border: 2px #2B3856 inset;
+  outline: none;
+  padding: 15px 1px 14px 2px;
+/*padding: 2px 3px 0 5px; /*shift text 1px to the right and down*/
+}
+
+.blank{
+  padding: 4% 0 3% 0;
+  font-size: 150%;
+  font-weight: bold;
+}
+  
+.zero{
+  width: 67%;
+}
+
+#footer{
+  margin-top: 4%;
+  margin-bottom: 2%;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 70%; 
+  color: silver;
+  text-align: center;
+}
